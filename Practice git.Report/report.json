@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.44\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU04\",\"version\":\"5.45\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU04",
+            "path": "BaseThemes/CY23SU04.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"edfc4223718693ae5b7a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":126.79802955665025,\"y\":46.995073891625616,\"z\":0,\"width\":735.960591133005,\"height\":373.30049261083747,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Examples.Autohost)\"},{\"queryRef\":\"Examples.Channel\"},{\"queryRef\":\"Sum(Examples.Channel Fee)\"},{\"queryRef\":\"Examples.Cleaning / Extras\"},{\"queryRef\":\"Examples.Total value\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Examples\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Autohost\"}},\"Function\":0},\"Name\":\"Sum(Examples.Autohost)\",\"NativeReferenceName\":\"Autohost\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Channel\"},\"Name\":\"Examples.Channel\",\"NativeReferenceName\":\"Channel\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Channel Fee\"}},\"Function\":0},\"Name\":\"Sum(Examples.Channel Fee)\",\"NativeReferenceName\":\"Channel Fee\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Cleaning / Extras\"},\"Name\":\"Examples.Cleaning / Extras\",\"NativeReferenceName\":\"Cleaning / Extras\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Total value\"},\"Name\":\"Examples.Total value\",\"NativeReferenceName\":\"Total value\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 373.30,
+          "width": 735.96,
+          "x": 126.80,
+          "y": 47.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
