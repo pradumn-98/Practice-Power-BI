@@ -1,0 +1,260 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 241.50001525878906
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 424.9,
+            "y": 483.9
+          },
+          "nodeIndex": "Sales",
+          "nodeLineageTag": "0656b010-6c49-422f-8b32-d47ec7a56b0f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 396.2,
+            "y": 0
+          },
+          "nodeIndex": "Customer",
+          "nodeLineageTag": "e8b7d0ac-b311-4901-b730-d93ddc259f38",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 967.8
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "0a0a74e3-777b-48d0-b435-b8dffa4a48ca",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 822.1,
+            "y": 486.2
+          },
+          "nodeIndex": "Product",
+          "nodeLineageTag": "56dac43d-0d82-4e44-92a6-c1badcdb3890",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 995.1,
+            "y": 559.4
+          },
+          "nodeIndex": "Product Category",
+          "nodeLineageTag": "2a04e63d-3ac0-4ced-8cd9-a78458ea32dd",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1033,
+            "y": 757.7
+          },
+          "nodeIndex": "Product Subcategory",
+          "nodeLineageTag": "211368a4-a4dc-4a06-bb96-84372a236de1",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 100.4,
+            "y": 483.7
+          },
+          "nodeIndex": "Store",
+          "nodeLineageTag": "61407319-7ee8-4a9f-aa31-bbc055c760fe",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 123,
+            "y": 158
+          },
+          "nodeIndex": "Sales",
+          "nodeLineageTag": "0656b010-6c49-422f-8b32-d47ec7a56b0f",
+          "size": {
+            "height": 345,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 426,
+            "y": 396
+          },
+          "nodeIndex": "Product",
+          "nodeLineageTag": "56dac43d-0d82-4e44-92a6-c1badcdb3890",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 863,
+            "y": 152
+          },
+          "nodeIndex": "Customer",
+          "nodeLineageTag": "e8b7d0ac-b311-4901-b730-d93ddc259f38",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Layout 1",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 2,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 89,
+            "y": 0
+          },
+          "nodeIndex": "Sales",
+          "nodeLineageTag": "0656b010-6c49-422f-8b32-d47ec7a56b0f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 537,
+            "y": 23
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "0a0a74e3-777b-48d0-b435-b8dffa4a48ca",
+          "size": {
+            "height": 276,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 443
+          },
+          "nodeIndex": "Customer",
+          "nodeLineageTag": "e8b7d0ac-b311-4901-b730-d93ddc259f38",
+          "size": {
+            "height": 250,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 351,
+            "y": 450
+          },
+          "nodeIndex": "Product",
+          "nodeLineageTag": "56dac43d-0d82-4e44-92a6-c1badcdb3890",
+          "size": {
+            "height": 240,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 667,
+            "y": 449
+          },
+          "nodeIndex": "Product Category",
+          "nodeLineageTag": "2a04e63d-3ac0-4ced-8cd9-a78458ea32dd",
+          "size": {
+            "height": 238,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 992,
+            "y": 450
+          },
+          "nodeIndex": "Store",
+          "nodeLineageTag": "61407319-7ee8-4a9f-aa31-bbc055c760fe",
+          "size": {
+            "height": 244,
+            "width": 234
+          },
+          "zIndex": 6
+        }
+      ],
+      "name": "Layout 2",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Layout 2",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,158 @@
+{
+  "config": "{\"version\":\"5.37\",\"themeCollection\":{},\"activeSectionIndex\":2,\"linguisticSchemaSyncVersion\":2}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0b1e2c893ea4271b195f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":96.76902536715622,\"y\":105.3,\"z\":0,\"width\":268.5180240320427,\"height\":139.5,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.No of discount sales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"No of discount sales\"},\"Name\":\"Customer.No of discount sales\",\"NativeReferenceName\":\"No of discount sales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"No of discount sales\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 139.50,
+          "width": 268.52,
+          "x": 96.77,
+          "y": 105.30,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"19de28539c5ea5057edb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":598.2798634812286,\"y\":89.1,\"z\":5,\"width\":263.4266211604095,\"height\":124.19999999999999,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.Average Customer Sale\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Average Customer Sale\"},\"Name\":\"Customer.Average Customer Sale\",\"NativeReferenceName\":\"Average Customer Sale\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Average Customer Sale\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 124.20,
+          "width": 263.43,
+          "x": 598.28,
+          "y": 89.10,
+          "z": 5.00
+        },
+        {
+          "config": "{\"name\":\"21b2c5feed6b9909e941\",\"layouts\":[{\"id\":0,\"position\":{\"x\":488.19112627986345,\"y\":221.39999999999998,\"z\":4,\"width\":263.4266211604095,\"height\":90,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.NumOfProductsWithNoSales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"NumOfProductsWithNoSales\"},\"Name\":\"Customer.NumOfProductsWithNoSales\",\"NativeReferenceName\":\"NumOfProductsWithNoSales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"NumOfProductsWithNoSales\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 90.00,
+          "width": 263.43,
+          "x": 488.19,
+          "y": 221.40,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"30be2f0846c17eb75f36\",\"layouts\":[{\"id\":0,\"position\":{\"x\":577.3105802047781,\"y\":463.5,\"z\":6,\"width\":238.52559726962457,\"height\":162.9,\"tabOrder\":6}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.Customer Code\"},{\"queryRef\":\"Customer.Average Customer Sale\"},{\"queryRef\":\"Sales.Avg Customer sale\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Customer Code\"},\"Name\":\"Customer.Customer Code\",\"NativeReferenceName\":\"Customer Code\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Average Customer Sale\"},\"Name\":\"Customer.Average Customer Sale\",\"NativeReferenceName\":\"Average Customer Sale\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Avg Customer sale\"},\"Name\":\"Sales.Avg Customer sale\",\"NativeReferenceName\":\"Avg Customer sale\"}]}}}",
+          "filters": "[]",
+          "height": 162.90,
+          "width": 238.53,
+          "x": 577.31,
+          "y": 463.50,
+          "z": 6.00
+        },
+        {
+          "config": "{\"name\":\"36c89490f79aa7119761\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.36518771331058,\"y\":300.59999999999997,\"z\":1,\"width\":263.4266211604095,\"height\":135.9,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.Discunted value\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Discunted value\"},\"Name\":\"Customer.Discunted value\",\"NativeReferenceName\":\"Discunted value\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Discunted value\"}}}]},\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 135.90,
+          "width": 263.43,
+          "x": 113.37,
+          "y": 300.60,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"63909dbc909c80315a54\",\"layouts\":[{\"id\":0,\"position\":{\"x\":298.8122866894198,\"y\":576.9,\"z\":8,\"width\":193.96587030716722,\"height\":72,\"tabOrder\":8}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.GoodCustomers\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"GoodCustomers\"},\"Name\":\"Customer.GoodCustomers\",\"NativeReferenceName\":\"GoodCustomers\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"GoodCustomers\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 72.00,
+          "width": 193.97,
+          "x": 298.81,
+          "y": 576.90,
+          "z": 8.00
+        },
+        {
+          "config": "{\"name\":\"644a2e31c37c72ec048c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":450.18430034129693,\"y\":526.5,\"z\":3,\"width\":263.4266211604095,\"height\":99.89999999999999,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.Sales Zero\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Sales Zero\"},\"Name\":\"Customer.Sales Zero\",\"NativeReferenceName\":\"Sales Zero\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Sales Zero\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 99.90,
+          "width": 263.43,
+          "x": 450.18,
+          "y": 526.50,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"7d8b67cb22848a3ca136\",\"layouts\":[{\"id\":0,\"position\":{\"x\":108.12286689419794,\"y\":509.4,\"z\":2,\"width\":263.4266211604095,\"height\":99.89999999999999,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.NumOfDiscountedProducts\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"NumOfDiscountedProducts\"},\"Name\":\"Customer.NumOfDiscountedProducts\",\"NativeReferenceName\":\"NumOfDiscountedProducts\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"NumOfDiscountedProducts\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 99.90,
+          "width": 263.43,
+          "x": 108.12,
+          "y": 509.40,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"98ae5bbc9a472cadda58\",\"layouts\":[{\"id\":0,\"position\":{\"x\":654.6348122866893,\"y\":293.4,\"z\":7,\"width\":263.4266211604095,\"height\":88.2,\"tabOrder\":7}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sales.Avg Customer sale\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Avg Customer sale\"},\"Name\":\"Sales.Avg Customer sale\",\"NativeReferenceName\":\"Avg Customer sale\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Avg Customer sale\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 88.20,
+          "width": 263.43,
+          "x": 654.63,
+          "y": 293.40,
+          "z": 7.00
+        },
+        {
+          "config": "{\"name\":\"f86c3ae974d2757d9e9e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":14.416382252559726,\"y\":226.79999999999998,\"z\":9,\"width\":150.71672354948805,\"height\":142.2,\"tabOrder\":9}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer.Customer Code\"},{\"queryRef\":\"Customer.GoodCustomers\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Customer Code\"},\"Name\":\"Customer.Customer Code\",\"NativeReferenceName\":\"Customer Code\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"GoodCustomers\"},\"Name\":\"Customer.GoodCustomers\",\"NativeReferenceName\":\"GoodCustomers\"}]}}}",
+          "filters": "[]",
+          "height": 142.20,
+          "width": 150.72,
+          "x": 14.42,
+          "y": 226.80,
+          "z": 9.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionb41565d8d1d9f320dd0e",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"d70c6bf30705b28ca25e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":130,\"y\":78.33333333333334,\"z\":0,\"width\":780.8333333333334,\"height\":336.6666666666667,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Product Category.Category\"},{\"queryRef\":\"Product Subcategory.Subcategory\"},{\"queryRef\":\"Sales.TotalSales\"},{\"queryRef\":\"Customer.Sales of Category Audio\"},{\"queryRef\":\"Customer.SalesOfValuesAudio\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Product Category\",\"Type\":0},{\"Name\":\"p1\",\"Entity\":\"Product Subcategory\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Category\"},\"Name\":\"Product Category.Category\",\"NativeReferenceName\":\"Category\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"Subcategory\"},\"Name\":\"Product Subcategory.Subcategory\",\"NativeReferenceName\":\"Subcategory\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"TotalSales\"},\"Name\":\"Sales.TotalSales\",\"NativeReferenceName\":\"TotalSales\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Sales of Category Audio\"},\"Name\":\"Customer.Sales of Category Audio\",\"NativeReferenceName\":\"Sales of Category Audio\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"SalesOfValuesAudio\"},\"Name\":\"Customer.SalesOfValuesAudio\",\"NativeReferenceName\":\"SalesOfValuesAudio\"}]}}}",
+          "filters": "[]",
+          "height": 336.67,
+          "width": 780.83,
+          "x": 130.00,
+          "y": 78.33,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionebe6216f94427e61c513",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"4f2aa4c107baf3f02cdb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":531.6666666666667,\"y\":65,\"z\":0,\"width\":526.6666666666667,\"height\":177.5,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Date.Calendar Year\",\"active\":true},{\"queryRef\":\"Date.Month\",\"active\":true}],\"Values\":[{\"queryRef\":\"Date.Sales in working day\"},{\"queryRef\":\"Customer.Sales in weekend\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Calendar Year\"},\"Name\":\"Date.Calendar Year\",\"NativeReferenceName\":\"Calendar Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Sales in working day\"},\"Name\":\"Date.Sales in working day\",\"NativeReferenceName\":\"Sales in working day\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Sales in weekend\"},\"Name\":\"Customer.Sales in weekend\",\"NativeReferenceName\":\"Sales in weekend\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Calendar Year\"}}},{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"Date.Calendar Year\"],\"isPinned\":true},{\"queryRefs\":[\"Date.Month\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"objects\":{\"values\":[{\"properties\":{\"valuesOnRow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 177.50,
+          "width": 526.67,
+          "x": 531.67,
+          "y": 65.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"daab51dfeadf781408d2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":319.1666666666667,\"z\":1,\"width\":610.8333333333334,\"height\":338.33333333333337,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Product Category.Category\"},{\"queryRef\":\"Product Subcategory.Subcategory\"},{\"queryRef\":\"Sales.TotalSales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Product Category\",\"Type\":0},{\"Name\":\"p1\",\"Entity\":\"Product Subcategory\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Category\"},\"Name\":\"Product Category.Category\",\"NativeReferenceName\":\"Category\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"Subcategory\"},\"Name\":\"Product Subcategory.Subcategory\",\"NativeReferenceName\":\"Subcategory\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"TotalSales\"},\"Name\":\"Sales.TotalSales\",\"NativeReferenceName\":\"TotalSales\"}]}}}",
+          "filters": "[]",
+          "height": 338.33,
+          "width": 610.83,
+          "x": 150.00,
+          "y": 319.17,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

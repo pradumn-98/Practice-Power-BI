@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../BI Class Count discounted sales (01 Start).Dataset"
+    },
+    "byConnection": null
+  }
+}
