@@ -565,7 +565,7 @@
               "",
               "               /*    COUNTROWS(FILTER(Customer,[Avg Customer sale]>=CALCULATE([Avg Customer sale],ALLSELECTED()))) */",
               "",
-              "",
+              "                ",
               "",
               "                  "
             ],
@@ -617,6 +617,18 @@
             ],
             "formatString": "\"₹\"\\ #,0.###############;#,0.###############\\ -\"₹\";\"₹\"\\ #,0.###############",
             "lineageTag": "7433abd3-a927-4a1d-8377-7341595318bf"
+          },
+          {
+            "name": "Sales pct",
+            "expression": "DIVIDE([TotalSales],CALCULATE([TotalSales],ALL('Product')))",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "e92258ac-63bb-4de0-a0cf-b92fcc818150"
+          },
+          {
+            "name": "Sales Pct 2",
+            "expression": "DIVIDE([TotalSales],CALCULATE([TotalSales],ALLSELECTED()))",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "7928f13c-b1dd-43e8-9a2b-35d71f8d5164"
           }
         ],
         "partitions": [
